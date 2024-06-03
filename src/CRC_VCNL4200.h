@@ -71,8 +71,8 @@ public:
 	
 	//Edit the binary settings here to change default startup options
 	boolean set_ALS_CONF(uint8_t c1 = B01000000);
-	boolean set_PS_CONF1_CONF2(uint8_t c1 = B00101010, uint8_t c2 = B00001011);
-	boolean set_PS_CONF3_MS(uint8_t c3 = B01110000, uint8_t m = B00000111);
+	boolean set_PS_CONF1_CONF2(uint8_t c1 = B00101011, uint8_t c2 = B00000000);
+	boolean set_PS_CONF3_MS(uint8_t c3 = B00000000, uint8_t m = B00000000);
 	
 	uint16_t getProximity();
 	uint16_t getAmbient();
